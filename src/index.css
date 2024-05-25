@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --spacing: 1em;
+  --gap: 0.5em;
+  --border-radius: 0.25em;
+  --color-primary: rgb(57 146 255);
+  --color-accent: #38383880;
+}
+
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(200 200 200);
+  background-color: rgb(18 18 18);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  display: contents;
+}
+
+img,
+video,
+canvas {
+  width: 100%;
+  height: auto;
+}

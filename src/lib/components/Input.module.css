@@ -1,0 +1,11 @@
+.label {
+}
+
+.input {
+  font: inherit;
+  display: block;
+  padding: var(--gap);
+  border: none;
+  border-radius: var(--border-radius);
+  background: var(--color-accent);
+}
